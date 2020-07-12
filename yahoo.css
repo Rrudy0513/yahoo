@@ -3,45 +3,37 @@ body{
    background-size: cover;
    background-image: url("https://media.npr.org/assets/artslife/arts/2010/11/kanye-west/kanye-west-64dcbf61c994ebb0c9325c6d62905dc3aa5326e4-s800-c85.jpg");
    background-repeat: no-repeat;
-   background-size: 75%;
-}
-.contatiner div{
-    border: 1px red solid;
-}
+   background-size:  75% 100%;
    
+   
+}
+  
 .contatiner{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    border: 1rem #2196F3;
+    padding: 10px;
+}
+.contatiner div{
+    border: 1rem #2156fdf3;
+    padding: 10px;
+
 }
 .box-1{
-    flex: 13;
-    
-}
-
-.in-1{
-    display: flex;
-    flex-direction: column;
-    align-self: flex-end;
-    color: aliceblue;
-    background-color: blueviolet;
-    align-self: flex-end;
-   
+    flex: 4;
+    align-items: flex-start;
+    border: 1rem #2196F3;
     
 }
 
 .box-2{
     flex: 4;
-    align-items: flex-start;
+    border: 1rem #2196F3;
 }
 .box-3{
     flex: 0;
     align-self: center;
+    border: 1rem #2196F3;
 }
-
-li{
-    padding: 1rem;
-}
-
-
 
