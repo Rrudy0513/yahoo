@@ -1,0 +1,47 @@
+body{
+   color:blueviolet;
+   background-size: cover;
+   background-image: url("./Pic/Kanywest.jpg");
+   background-repeat: no-repeat;
+   background-size: 75%;
+}
+.contatiner div{
+    border: 1px red solid;
+}
+   
+.contatiner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.box-1{
+    flex: 13;
+    
+}
+
+.in-1{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    color: aliceblue;
+    background-color: blueviolet;
+    align-self: flex-end;
+   
+    
+}
+
+.box-2{
+    flex: 4;
+    align-items: flex-start;
+}
+.box-3{
+    flex: 0;
+    align-self: center;
+}
+
+li{
+    padding: 1rem;
+}
+
+
+
